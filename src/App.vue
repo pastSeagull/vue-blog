@@ -1,21 +1,19 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
 
     <Head />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 import Head from './components/header/Head'
-
 export default {
   name: 'App',
   components: {
-    Head
+    Head,
   }
 }
 </script>
 
-<style>
-</style>
+<style lang='stylus' scoped></style>
